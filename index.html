@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#job_experience">Job Experience</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-<!--                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>-->
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
 <!--                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>-->
                 </ul>
             </div>
@@ -228,6 +228,226 @@ We gathered site data and used machine learning libraries to process and evaluat
                 </div>
             </section>
             <hr class="m-0" />
+                        <!-- Projects-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Selected Projects</h2>
+
+
+
+
+				<!-- modal popups - begin
+				============================================================= -->
+				<div id="modal-01" class="popup-modal slider mfp-hide">
+
+						  <h3>Multi-modal Fake News Detection</h3>
+						<div class="media">
+							<img src="assets/img/fake-news.jpg" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+							   Our research involves examining news stories published on social media and news agencies, and identifying fake news by analyzing their image and text,
+							   as well as by employing machine learning algorithms like for embedding image and text, concatenation vectors and learning specific and corresponding
+							   features of text and image.<br>
+
+							   <b>Transfer Learning: </b> We explored several approaches for embedding text and image, and found that conceptual and semantic
+							   embedding worked best, Huggingface’s BERT model for text and ViT model for image. In the news agencies text, Big Bird model was more
+							   relevant and accurate due to the length of the documents. <br>
+
+							   <b>Multi-modal Learning: </b> We evaluated different algorithms to fuse text and picture vectors, and found that the Constrative Loss
+							   function and concatenation worked better for short texts, and attention based fusion for lengthy texts. <br>
+
+							   <b>Semi-supervised Learning: </b> We are now working on semi-supervised approaches like pseudo-labeling to leverage vast amounts of unlabeled news for training.
+
+						   </p>
+                           <a href="https://github.com/FaezeGhorbanpour/FakeNewsRevealer">Code</a>
+					   </div>
+
+
+				   </div> <!-- /modal-01 -->
+
+				   <div id="modal-02" class="popup-modal slider mfp-hide">
+
+						  <h3>Automatic text classification</h3>
+						<div class="media">
+							<img src="assets/img/text-classification.jpeg" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+							   Actions and models that may be applied to various sorts of text for improved classification have been implemented in this project.
+								It provides the embedding and classification model to apply to the text using a command. The basic analysis of the data is
+								presented first and the analysis of the results at the end of training. Optuna adjusts the different parameters after picking the
+								model to get the optimum outcome.<br>
+								<b>EDA:</b> This phase shows experimental operations like text length, label distribution, and features visualization. <br>
+							   <b>Augmentation: </b> Different types of augmentation methods of words, documents and features are ready to use in this phase. <br>
+							   <b>Embedding: </b> In this phase, text embedding algorithms like Fasttext, Word2vec, and contextual embedding can be used to
+								extract features.<br>
+							   <b>Algorithms: </b> Machine learning, deep learning, and transformer learning models are implemented to select and use in training.
+								Parameter tuning is done on algorithm parameters to achieve the best result.
+
+
+
+						   </p>
+						<a href="https://github.com/FaezeGhorbanpour/text-classification">Code</a>
+					   </div>
+
+
+				   </div> <!-- /modal-02 -->
+
+
+					<div id="modal-09" class="popup-modal slider mfp-hide">
+
+						  <h3>Automatic image classification</h3>
+						<div class="media">
+							<img src="assets/img/image-classification.jpg" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+							   In this project, activities such as adding data, classifying images, assessing and visualising are conducted to categorise the input images.
+							   Simply place the input in the data folder and enter the options, such as what kind of data augmentation and classification model to use,
+							   in the settings file, then run it and pick the output.<br>
+							   <b>Augmentation: </b> Several techniques for adding data at the image level and extraction features level have been implemented in this phase.<br>
+							   <b>Algorithms: </b> Image classification models using deep and deeper learning models such as VGG, ResNet, etc can be selected and used in this phase. <br>
+							   <b>Error Analysis: </b> A comprehensive review of the final model, as well as the incorrectly identified photos, is provided in this step.
+
+						   </p>
+						  <a href="https://github.com/FaezeGhorbanpour/image-classification">Code</a>
+					   </div>
+
+
+				   </div> <!-- /modal-02 -->
+
+				   <div id="modal-03" class="popup-modal slider mfp-hide">
+
+						  <h3>Blockchain System</h3>
+						<div class="media">
+							<img src="assets/img/blockchain.jpg" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+							   This project’s goal is to use blockchain to create financial interactions. Wallets represent each customer’s bank account and cash.
+							   The consumer establishes an account and asks a loan, the bank acts as a blockchain extractor and approves the loan,
+							   and the bank’s head sets the regulations and monitors the credit transactions. We were the best project in the class for this project,
+							   which was for the network security course. <br>
+							   <b>Security measures: </b> To ensure the safety of the blockchain network, this project has included many layers of security,
+							   including authentication using the SHA512 hash function, transaction RSA encryption, and a user authentication method. <br>
+							   <b>Blockchain: </b> The system functions like a network. Banks, consumers, and servers are all nodes in a network, and transactions are exchanged between them.
+						   </p>
+						<a href="https://github.com/FaezeGhorbanpour/blockchain">Code</a>
+					   </div>
+
+
+				   </div> <!-- /modal-03 -->
+
+				   <div id="modal-04" class="popup-modal slider mfp-hide">
+
+						  <h3>Punish and Reward System</h3>
+						<div class="media">
+							<img src="assets/img/punish.jpg" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+							   This software designed for managers to measure employees’ performance.
+							   They can define computable metrics for evaluators to evaluate employees concerning these metrics.
+							   Then, managers are able to set rewards or punishments based on the evaluation results.
+							   Ultimately, The goal was to learn object-oriented design and implement some design patterns. <br>
+							   <b>Clean Coding: </b> We had to code cleanly and master clean coding approaches as part of this collaborative project. <br>
+							   <b>OOD: </b> The principles of Object Oriented Programming were followed in this project, and an organised project structure was implemented.
+						   </p>
+						<a href="https://github.com/FaezeGhorbanpour/Punish_Reward">Code</a>
+					   </div>
+
+				   </div> <!-- /modal-04 -->
+
+<!--				   <div id="modal-05" class="popup-modal slider mfp-hide">-->
+
+<!--						<div class="media">-->
+<!--							<img src="assets/img/clash.jpg" alt="" />-->
+<!--						</div>-->
+
+<!--					   <div class="description-box">-->
+<!--						  <h3>Times Children Game</h3>-->
+<!--						   <p>Under Construction !</p>-->
+<!--						  <div class="categories"></div>-->
+<!--					   </div>-->
+
+<!--					 <div class="link-box">-->
+<!--						<a href="https://github.com/FaezeGhorbanpour/times-children">Code</a>-->
+<!--						  <a href="#" class="popup-modal-dismiss">Close</a>-->
+<!--					 </div>-->
+
+<!--				   </div> &lt;!&ndash; /modal-05 &ndash;&gt;-->
+
+				   <div id="modal-07" class="popup-modal slider mfp-hide">
+
+						  <h3>Map Matching</h3>
+						<div class="media">
+							<img src="assets/img/map.jpg" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+							This research, a collaboration between the Schools of Computer Science and Civil Engineering, sought to examine and report on the behaviour of a kindergarten driver.
+							   I was in Dr. Motahari team and my objective was to map and analyse the GPS data collected from the driver’s phone.<br>
+                               </p>
+
+						<a href="https://github.com/FaezeGhorbanpour/map-matching">Code</a>
+					   </div>
+                       <p>
+                           <b>Hidden Markov Model</b> This statistical learning algorithm is used to map noise points to road points on the map.<br>
+                           <b>Visualization: </b> techniques are used to show the input and improved GPS points on the map. The team was also shown the accuracy and efficiency of the results by visualization.
+
+
+                       </p>
+				   </div> <!-- /modal-06 -->
+
+
+<!--					<div id="modal-08" class="popup-modal slider mfp-hide">-->
+
+<!--						<div class="media">-->
+<!--							<img src="assets/img/crawler.png" alt="" />-->
+<!--						</div>-->
+
+<!--					   <div class="description-box">-->
+<!--						  <h3>Crawler</h3>-->
+<!--						   <p>Under Construction ! </p>-->
+<!--						  <div class="categories"></div>-->
+<!--					   </div>-->
+
+<!--					 <div class="link-box">-->
+<!--						<a href="https://github.com/FaezeGhorbanpour/crawler">Code</a>-->
+<!--						  <a href="#" class="popup-modal-dismiss">Close</a>-->
+<!--					 </div>-->
+
+<!--				   </div> &lt;!&ndash; /modal-06 &ndash;&gt;-->
+                    <div id="modal-06" class="popup-modal slider mfp-hide">
+
+						  <h3>Information Retrieval System</h3>
+						<div class="media">
+							<img src="assets/img/information.png" alt="" />
+						</div>
+
+					   <div class="description-box">
+						   <p>
+						   An information retrieval system has been constructed on the newspaper collection in this project.
+							   An index is generated on this data collection, and documents are searched and retrieved using it, before the system is assessed.
+							   The pages of the crawled blog are searched in the next step, taking into account the connections between the blogs. <br>
+							   <b>Clustering: </b> The number of rank screws for each page in the search elastic is computed in this section, and the results are added to the search elastic and used in the page searching.<br>
+							   <b>Page Rank: </b> For speedier retrieval, blogs in Elastic Search are clustered, and the suitable k is computed by adding the squares.
+
+						   </p>
+						<a href="https://github.com/FaezeGhorbanpour/information-retrieval">Code</a>
+					   </div>
+
+				   </div> <!-- /modal-06 -->
+
+                </div>
+            </section>
 <!--            &lt;!&ndash; Awards&ndash;&gt;-->
 <!--            <section class="resume-section" id="awards">-->
 <!--                <div class="resume-section-content">-->

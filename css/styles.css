@@ -12262,7 +12262,7 @@ section.resume-section .resume-section-content {
     width: 50%;
     height: 50%;
     padding: 1%;
-    float: left;
+    border-radius: 10%;
 }
 
 /**
@@ -12280,7 +12280,6 @@ section.resume-section .resume-section-content {
         width: 50%;
         height: 50%;
         padding: 1%;
-        float: left;
     }
 
 
@@ -12297,7 +12296,6 @@ section.resume-section .resume-section-content {
         width: 50%;
         height: 50%;
         padding: 1%;
-        float: left;
     }
 
 
@@ -12333,9 +12331,7 @@ section.resume-section .resume-section-content {
 #projects .description_more {
     display: none;
 }
-#projects .description_box {
-    height: 19rem;
-}
+
 
 
 #projects .slider {
